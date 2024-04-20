@@ -1,8 +1,12 @@
 import React from 'react'
+import img2 from '../assets/image.png'
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <div className="nbar">
+       <img src= {img2} className="img2" />
+   
+    </div>
   )
 }
 
